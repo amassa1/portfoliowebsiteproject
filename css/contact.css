@@ -1,0 +1,55 @@
+@font-face {
+    font-family: chackra-petch;
+    src: url(../files/fonts/ChakraPetch-SemiBold.ttf);
+}
+@font-face{
+    font-family: anaheim;
+    src: url(../files/fonts/Anaheim-Regular.ttf)
+}
+body{
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    background-color: #E5E5E5;
+}
+main{  
+    position: absolute;
+    margin-left: 10%;  
+    margin-right: 10%;        
+    width: 80%;     
+    height: 100%; 
+    top: 25%;
+    left: 0%;
+    background: #E5E5E5;
+}
+h1{
+    text-align: center;
+    font-family: chackra-petch;
+    font-size: 5vw;    
+    margin-bottom: 1%;
+}
+h2{
+    text-align: left;
+    font-family: anaheim;
+    font-size: 2vw;    
+    margin-bottom: 1%;
+}
+a{
+    text-align: left;
+    font-family: anaheim;
+    font-size: 1vw;  
+}
+footer{
+    background-color: #DEF2F1;
+    position: absolute;
+    top: 115%;
+    left: 0%;
+    width: 100%;
+    height: 15%;    
+    text-align: right;           
+}
+footer p{
+    position: relative;
+    top: 40%;
+    right: 20%;
+}

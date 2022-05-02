@@ -1,0 +1,123 @@
+@font-face {
+    font-family: chackra-petch;
+    src: url(../files/fonts/ChakraPetch-SemiBold.ttf);
+}
+@font-face{
+    font-family: anaheim;
+    src: url(../files/fonts/Anaheim-Regular.ttf)
+}
+body{
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    background-color: #E5E5E5;
+}
+main{  
+    position: absolute;
+    margin-left: 10%;  
+    margin-right: 10%;        
+    width: 80%;     
+    height: 150%; 
+    top: 25%;
+    left: 0%;
+    background: #E5E5E5;
+}
+#titleSection{
+    position: relative;
+    top: 10%;
+    left: 0%;
+    text-align: left;
+    height: 40%;
+}
+#titleSection h1{
+    text-align: center;
+    font-family: chackra-petch;
+    font-size: 5vw;    
+    margin-bottom: 1%;
+}
+#titleSection p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: anaheim;       
+    font-size: 1.5vw; 
+}
+#categoryList{
+    position: relative;
+    top: 40%;    
+    width: 100%;
+}
+.category{
+    list-style: none;          
+}
+.categoryHeader img{
+    position: relative;    
+    width: 5%;
+    height: 5%;
+}
+.categoryHeader h2{                
+    position: relative;    
+    display: inline;
+    left: 7%;
+    top: -5%;    
+    width: 80%;
+    margin: 0px;    
+    font-size: 2vw;    
+    font-family: anaheim;    
+}
+.projectList{    
+    list-style: none;   
+    margin-bottom: 10%; 
+}
+.project{        
+    background: #DEF2F1;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.projectName{    
+    position: relative;
+    width: 60%;    
+    display: inline;
+    font-family: anaheim;
+    font-size: 1.5vw;
+}
+.btnsContainer{
+    width: 25%;
+    display: inline;
+    position: absolute;
+    right: 0%;
+}
+.btn{
+    display: inline;   
+    width: 40%;     
+    margin-right: 10%;
+    font-family: 'Anaheim';    
+    font-size: 1vw;
+    line-height: 19px;
+    color: #000000;
+    background: #C4C4C4;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+.btn:hover{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: blue;
+}
+footer{
+    background-color: #DEF2F1;
+    position: absolute;
+    top: 280%;
+    left: 0%;
+    width: 100%;
+    height: 15%;    
+    text-align: right;           
+}
+footer p{
+    position: relative;
+    top: 40%;
+    right: 20%;
+}

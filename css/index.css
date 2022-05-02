@@ -1,0 +1,98 @@
+@font-face {
+    font-family: chackra-petch;
+    src: url(../files/fonts/ChakraPetch-SemiBold.ttf);
+}
+@font-face{
+    font-family: anaheim;
+    src: url(../files/fonts/Anaheim-Regular.ttf)
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    background-color: #E5E5E5;
+}
+main{  
+    position: absolute;
+    margin-left: 10%;  
+    margin-right: 10%;    
+    position: absolute;    
+    width: 80%;     
+    height: 150%; 
+    top: 25%;
+    left: 0%;
+    background: #E5E5E5;
+}
+#titleSection{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    height: 50%;
+}
+#titleSection h1{
+    font-family: chackra-petch;
+    font-size: 5vw;    
+    margin-bottom: 1%;
+}
+#titleSection p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: anaheim;       
+    font-size: 1.5vw; 
+}
+.sideSections{
+    text-align: center;
+    position: absolute;
+    top: 50%;                
+    width: 30%;        
+    height: 50%;
+}
+.sideSections h2{
+    font-family: chackra-petch;
+    font-size: 3vw;
+}
+.sideSections ul{
+    padding: 0;
+    left: 0%;
+    list-style-type: none;    
+    font-family: anaheim;       
+    font-size: 15pt;   
+}
+.sideSections li{
+    margin-top: 10%;
+}
+#programmerSection{    
+    right: 0%;
+}
+#pictureSection{
+    position: absolute;    
+    top: 50%;
+    left: 35%;        
+    height: 50%;
+    width: 30%;    
+}
+#pictureSection img{
+    position: relative;
+    left: 10%;
+    border-style: solid;
+    border-color: white;    
+    height: 50%;
+}
+footer{
+    background-color: #DEF2F1;
+    position: absolute;
+    top: 180%;
+    left: 0%;
+    width: 100%;
+    height: 15%;    
+    text-align: right;           
+}
+footer p{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
